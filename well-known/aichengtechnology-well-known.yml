@@ -1,0 +1,56 @@
+generated: '2026-09-14'
+method: probed
+source: live HTTPS probes of every host this record knows (registrable domain + www)
+note: >-
+  No well-known document is served. Every path below returned the site's standard
+  404 page (an XHTML 1.0 Strict error template, ~4.8KB, Content-Type text/html) —
+  not a document and not an SPA catch-all 200. No WellKnown or SecurityTxt pointer
+  is emitted in apis.yml, because the provider serves none of these surfaces. The
+  site also serves no /robots.txt and no /sitemap.xml.
+hosts:
+- host: www.jssict.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+- host: jssict.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null

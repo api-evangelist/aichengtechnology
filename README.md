@@ -1,4 +1,4 @@
-# Aichengtechnology
+# Aicheng Technology
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,17 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Aichengtechnology is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://equityzen.com/company/aichengtechnology
+Aicheng Technology (Suzhou Innovation Ceramic Technology Co., Ltd. — SiCT, 苏州艾成科技技术有限公司) is a
+Suzhou, China advanced-ceramics manufacturer founded in July 2021. It produces AlN and Si3N4 ceramic
+substrates, DCB (direct copper bonding) and AMB (active metal brazing) substrates, DPC, and active
+brazing pastes for power electronics used in industrial control, new energy, consumer electronics and
+rail transport.
+
+**No API surface.** SiCT sells physical components. Its public site is a static corporate brochure —
+product catalog, a PDF datasheet download center, and a contact form. A full contract-discovery pass on
+2026-09-14 found no OpenAPI, no GraphQL, no MCP server, no agent card, no `/llms.txt`, no `/robots.txt`,
+no sitemap, and no document at any probed `/.well-known/` path on either `jssict.com` or
+`www.jssict.com`. See `x-coverage` in `apis.yml`.
+
+- https://www.jssict.com/en/
+- https://equityzen.com/company/aichengtechnology (secondary-market listing this profile was harvested from)
