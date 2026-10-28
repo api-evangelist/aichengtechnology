@@ -64,17 +64,80 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Aicheng Technology (Suzhou Innovation Ceramic Technology Co., Ltd. — SiCT, 苏州艾成科技技术有限公司) is a
-Suzhou, China advanced-ceramics manufacturer founded in July 2021. It produces AlN and Si3N4 ceramic
-substrates, DCB (direct copper bonding) and AMB (active metal brazing) substrates, DPC, and active
-brazing pastes for power electronics used in industrial control, new energy, consumer electronics and
-rail transport.
+Aicheng Technology (Suzhou Innovation Ceramic Technology Co., Ltd., "SiCT" — 苏州艾成科技技术有限公司) is a Suzhou, China advanced-ceramics manufacturer founded in July 2021 that makes power-electronics substrates: AlN and Si3N4 ceramic substrates, DCB (direct copper bonding) and AMB (active metal brazing) substrates, DPC, and active solder/brazing pastes, for industrial control, new energy, consumer electronics and rail transport. It states it is the only Chinese manufacturer running the full "ceramic blank — copper bonding — etching — electroless plating" flow in mass production, with a factory and head office in the Suzhou High-Tech District and an R&D center in Korea. It sells physical components to hardware and semiconductor packaging customers; it operates no developer program, publishes no API, and its public site is a static corporate brochure with a product catalog, a datasheet download center, and a contact form.
 
-**No API surface.** SiCT sells physical components. Its public site is a static corporate brochure —
-product catalog, a PDF datasheet download center, and a contact form. A full contract-discovery pass on
-2026-09-14 found no OpenAPI, no GraphQL, no MCP server, no agent card, no `/llms.txt`, no `/robots.txt`,
-no sitemap, and no document at any probed `/.well-known/` path on either `jssict.com` or
-`www.jssict.com`. See `x-coverage` in `apis.yml`.
+**Areas:** Company · Semiconductors · Advanced Materials · Ceramics · Manufacturing · Electronic Components · Hardware
 
-- https://www.jssict.com/en/
-- https://equityzen.com/company/aichengtechnology (secondary-market listing this profile was harvested from)
+## Aicheng Technology on APIs.io
+
+Everything profiled for Aicheng Technology is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/aichengtechnology/](https://apis.io/providers/aichengtechnology/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Aichengtechnology Domain Security](https://apis.io/security/aichengtechnology/aichengtechnology-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.jssict.com/en/)
+- [Support](https://www.jssict.com/en/fw.html)
+
+## API Evangelist rating
+
+**Kin Score 4.4** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 4.8 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/aichengtechnology/](https://apis.io/providers/aichengtechnology/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Aicheng Technology: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/aichengtechnology/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
